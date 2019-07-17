@@ -2,20 +2,24 @@
 .navigation {
   background: #3C3C3C;
   height: 100vh;
-  display: grid;
-  align-items: center;
-  justify-content: center;
   font-family: "Nunito", sans-serif;
 }
 .navigation .inner .close {
-  color: #fff;
+  float: right;
+  padding: 50px 50px;
 }
-.navigation .inner ul {
+.navigation .inner .links {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 30%;
+}
+.navigation .inner .links ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.navigation .inner ul li {
+.navigation .inner .links ul li {
   font-size: 30px;
   padding: 10px;
   color: #fff;

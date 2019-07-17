@@ -3,24 +3,28 @@
 .navigation {
   background: #3C3C3C;
   height: 100vh;
-  display: grid;
-  align-items: center;
-  justify-content: center;
   font-family: 'Nunito', sans-serif;
   .inner {
     .close {
-      color: #fff;
+      float: right;
+      padding: 50px 50px;
     }
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+    .links {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 30%;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 
-      li {
-        font-size: 30px;
-        padding: 10px;
-        color: #fff;
+        li {
+          font-size: 30px;
+          padding: 10px;
+          color: #fff;
+        }
       }
     }
   }

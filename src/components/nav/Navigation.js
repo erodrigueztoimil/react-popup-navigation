@@ -7,7 +7,9 @@ function Navigation(props) {
     <div className='navigation'>
       <div className='inner'>
         <CloseButton click={props.click}/>
-        <Links items={props.items}/>
+        <div className='links'>
+          <Links items={props.items}/>
+        </div>
       </div>
     </div>
   );
