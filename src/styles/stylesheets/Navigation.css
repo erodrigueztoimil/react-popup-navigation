@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+.navigation {
+  background: #3C3C3C;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.navigation .inner .close {
+  color: #fff;
+}
+.navigation .inner ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation .inner ul li {
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=Navigation.css.map */

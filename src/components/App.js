@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navigation } from './nav';
+import { Parent } from './nav';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <Parent />
     </div>
   );
 }
